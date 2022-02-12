@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Scenario Code="7251BC4B6168E7B2992FA620BD3E1E77">
+  <Generation>
+    <Author Version="8.1.34.0" />
+    <TTS Version="6.0.15">
+      <Dictionary Version="3.0.13" />
+      <SoundSources>
+        <SoundSource Version="1.0.1" Id="CTNV-JPF-AHS2" Name="小春六花" />
+      </SoundSources>
+    </TTS>
+    <SVSS Version="6.0.14">
+      <Dictionary Version="3.0.1" />
+      <SoundSources />
+    </SVSS>
+  </Generation>
+  <Sequence Id="">
+    <Scene Id="">
+      <Timeline Partition="200,178" CurrentPosition="00:00:00">
+        <ViewScale Horizontal="1" Vertical="0.64583333333333337" />
+      </Timeline>
+      <TalkEditor Partition="596">
+        <Extension VerticalRatio="*,*" />
+      </TalkEditor>
+      <SongEditor Partition="64" Quantize="240" Mode="0" EditingTool="1">
+        <ViewScale Horizontal="80" Vertical="14" />
+        <ReferenceState Current="None" Previous="None" />
+      </SongEditor>
+      <Units>
+        <Unit Version="1.1" Id="" Category="TextVocal" Group="6b91a933-adc1-422a-869f-2971e59788dd" StartTime="00:00:00" Duration="00:00:01.9850000" Text="こんばんは、初めまして！" CastId="CTNV-JPF-AHS2" Language="Japanese" SnapShot="E2B7117F96DB52599582EA68DA7F1DD9:363E44A594A72DAA14A5C6E92FD87E6E">
+          <Metadata>MAEBAXNpbAEqASoBMAEBMAEwADUB44GT44KT44Gw44KT44GvAuOAgQHjgrPjg7Pjg5Djg7Pjg68CAWssb3xOfGIsYXxOfHcsYQJwYXUBKgIqASoCKgEwAjABbGhoaGgCbAEwAjABMAIwADQB5Yid44KBAuOBvuOBl+OBpgHjg4/jgrjjg6EC44Oe44K34oCZ44OGAWgsYXxqLGl8bSxlAm0sYXxzaCxJfHQsZQEqAioBKgIqATACMAFsaGgCaGxsATACMAEwAjAAMAHvvIEB44CBAXNpbAEqASoBMAEBMQEw</Metadata>
+          <Direction Volume="0" Speed="1" Tone="0" Alpha="0.55" LogF0Scale="1">
+            <Component Name="CTNV-JPF-AHS2_HAPPY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_NORMAL" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_ANGRY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_SAD" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_CALM" Value="0.00" />
+          </Direction>
+          <Phonemes>
+            <Phoneme Data="k" />
+            <Phoneme Data="o" />
+            <Phoneme Data="N" />
+            <Phoneme Data="b" />
+            <Phoneme Data="a" />
+            <Phoneme Data="N" />
+            <Phoneme Data="w" />
+            <Phoneme Data="a" />
+            <Phoneme Speed="0.03999999999999998" />
+            <Phoneme Data="h" />
+            <Phoneme Data="a" />
+            <Phoneme Data="j" />
+            <Phoneme Data="i" />
+            <Phoneme Data="m" />
+            <Phoneme Data="e" />
+            <Phoneme Data="m" />
+            <Phoneme Data="a" />
+            <Phoneme Data="sh" />
+            <Phoneme Data="I" />
+            <Phoneme Data="t" />
+            <Phoneme Data="e" />
+          </Phonemes>
+        </Unit>
+        <Unit Version="1.1" Id="" Category="TextVocal" Group="6b91a933-adc1-422a-869f-2971e59788dd" StartTime="00:00:02.4850000" Duration="00:00:02.0250000" Text="てっててー！騙されました！" CastId="CTNV-JPF-AHS2" Language="Japanese" SnapShot="B422706601E0629D147938A17CD6369E:882F1EDE71240E3F57C4638C9D2B97AD">
+          <Metadata>MAEBAXNpbAEqASoBMAEBMAEwADEB44Gm44GjAuOBpgLjgabjg7wC77yBAeODhuODgwLjg4YC44OG44O8AgF0LGV8Y2wCdCxlAnQsZXxlAnBhdQEqAioCKgIqASoCKgIqAioBMAIwAjACMAFobAJsAmxsAmwBMAIwAjACMQEwAjACMAIwADUB6aiZ44GVAuOCjALjgb7jgZcC44GfAeODgOODnuOCtQLjg6wC44Oe44K34oCZAuOCvwFkLGF8bSxhfHMsYQJyLGUCbSxhfHNoLEkCdCxhASoCKgIqAioBKgIqAioCKgEwAjACMAIwAWxoaAJoAmhsAmwBMAIwAjACMAEwAjACMAIwADAB77yBAeOAgQFzaWwBKgEqATABATEBMA==;MAEBAXNpbAEqASoBMAEBMAEwADUB44Gm44GjAuOBpgLjgabjg7wC77yBAeODhuODgwLjg4YC44OG44O8AgF0LGV8Y2wCdCxlAnQsZXxlAnBhdQEqAioCKgIqASoCKgIqAioBMAIwAjACMAFsaAJoAmhoAmwBMAIwAjACMQEwAjACMAIwADUB6aiZ44GVAuOCjALjgb7jgZcC44GfAeODgOODnuOCtQLjg6wC44Oe44K34oCZAuOCvwFkLGF8bSxhfHMsYQJyLGUCbSxhfHNoLEkCdCxhASoCKgIqAioBKgIqAioCKgEwAjACMAIwAWxoaAJoAmhsAmwBMAIwAjACMAEwAjACMAIwADAB77yBAeOAgQFzaWwBKgEqATABATEBMA==</Metadata>
+          <Direction Volume="0" Speed="1" Tone="0" Alpha="0.55" LogF0Scale="1">
+            <Component Name="CTNV-JPF-AHS2_HAPPY" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_NORMAL" Value="0.70" />
+            <Component Name="CTNV-JPF-AHS2_ANGRY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_SAD" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_CALM" Value="0.00" />
+          </Direction>
+          <Phonemes>
+            <Phoneme Data="t" />
+            <Phoneme Data="e" />
+            <Phoneme Data="cl" />
+            <Phoneme Data="t" />
+            <Phoneme Data="e" />
+            <Phoneme Data="t" Speed="0.017708333333333326" />
+            <Phoneme Data="e" Speed="0.037384259259259311" />
+            <Phoneme Data="e" Speed="0.0511574074074074" />
+            <Phoneme Speed="-0.015000000000000069" />
+            <Phoneme Data="d" />
+            <Phoneme Data="a" />
+            <Phoneme Data="m" />
+            <Phoneme Data="a" />
+            <Phoneme Data="s" />
+            <Phoneme Data="a" />
+            <Phoneme Data="r" />
+            <Phoneme Data="e" />
+            <Phoneme Data="m" />
+            <Phoneme Data="a" />
+            <Phoneme Data="sh" />
+            <Phoneme Data="I" />
+            <Phoneme Data="t" />
+            <Phoneme Data="a" />
+          </Phonemes>
+        </Unit>
+        <Unit Version="1.1" Id="" Category="TextVocal" Group="6b91a933-adc1-422a-869f-2971e59788dd" StartTime="00:00:05.0100000" Duration="00:00:02.5200000" Text="私の本名は、小春六花です！" CastId="CTNV-JPF-AHS2" Language="Japanese" SnapShot="97F5367E839B59623C46AACE0EBB123A:C40F7B66DC40586551D7E88B4AC89F00">
+          <Metadata>MAEBAXNpbAEqASoBMAEBMAEwADAB56eBAuOBrgHjg6/jgr/jgrcC44OOAXcsYXx0LGF8c2gsaQJuLG8BKgIqASoCKgEwAjABbGhoAmgBMAIwATACMAAxAeacrOWQjQLjga8C44CBAeODm+ODs+ODn+ODp+ODvALjg68CAWgsb3xOfG15LG98bwJ3LGECcGF1ASoCKgIqASoCKgIqATACMAIwAWhsbGwCbAJsATACMAIwATACMAIwADAB5bCP5pilAeOCs+ODj+ODqwFrLG98aCxhfHIsdQEqASoBMAFsaGgBMAEwADEB5YWt6IqxAuOBp+OBmQHjg6rjg4PjgqsC44OH44K54oCZAXIsaXxjbHxrLGECZCxlfHMsVQEqAioBKgIqATACMAFobGwCbGwBMAIwATACMAAwAe+8gQHjgIEBc2lsASoBKgEwAQExATA=</Metadata>
+          <Direction Volume="0" Speed="1" Tone="0" Alpha="0.55" LogF0Scale="1">
+            <Component Name="CTNV-JPF-AHS2_HAPPY" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_NORMAL" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_ANGRY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_SAD" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_CALM" Value="0.00" />
+          </Direction>
+          <Phonemes>
+            <Phoneme Data="w" />
+            <Phoneme Data="a" />
+            <Phoneme Data="t" />
+            <Phoneme Data="a" />
+            <Phoneme Data="sh" />
+            <Phoneme Data="i" />
+            <Phoneme Data="n" />
+            <Phoneme Data="o" />
+            <Phoneme Data="h" />
+            <Phoneme Data="o" />
+            <Phoneme Data="N" />
+            <Phoneme Data="my" />
+            <Phoneme Data="o" />
+            <Phoneme Data="o" />
+            <Phoneme Data="w" />
+            <Phoneme Data="a" />
+            <Phoneme Speed="0.12000000000000005" />
+            <Phoneme Data="k" />
+            <Phoneme Data="o" />
+            <Phoneme Data="h" />
+            <Phoneme Data="a" />
+            <Phoneme Data="r" />
+            <Phoneme Data="u" />
+            <Phoneme Data="r" />
+            <Phoneme Data="i" />
+            <Phoneme Data="cl" />
+            <Phoneme Data="k" />
+            <Phoneme Data="a" />
+            <Phoneme Data="d" />
+            <Phoneme Data="e" />
+            <Phoneme Data="s" />
+            <Phoneme Data="U" />
+          </Phonemes>
+        </Unit>
+        <Unit Version="1.1" Id="" Category="TextVocal" Group="6b91a933-adc1-422a-869f-2971e59788dd" StartTime="00:00:08.0300000" Duration="00:00:04.7650000" Text="私の声は、チェビオエーアイによって作成された、合成音声なんです！" CastId="CTNV-JPF-AHS2" Language="Japanese" SnapShot="EDD0AA8E182E7790A18814F5C195B7D9:921073F98DBDE73C30DF9BF317010F81">
+          <Metadata>MAEBAXNpbAEqASoBMAEBMAEwADAB56eBAuOBrgHjg6/jgr/jgrcC44OOAXcsYXx0LGF8c2gsaQJuLG8BKgIqASoCKgEwAjABbGhoAmgBMAIwATACMAAxAeWjsALjga8C44CBAeOCs+OCqALjg68CAWssb3xlAncsYQJwYXUBKgIqAioBKgIqAioBMAIwAjABaGwCbAJsATACMAIwATACMAIwADYB44OB44Kn44OT44KqAuOCqOODvOOCouOCpALjgasB44OB44Kn44OT44KqAuOCqOODvOOCouOCpALjg4sBY2gsZXxiLGl8bwJlfGV8YXxpAm4saQEqAioCKgEqAioCKgEwAjACMAFsaGgCaGhobAJsATACMAIwATACMAIwADAB44KI44GjAuOBpgHjg6jjg4MC44OGAXksb3xjbAJ0LGUBKgIqASoCKgEwAjABbGgCaAEwAjABMAIwADcB5L2c5oiQAuOBlQLjgowC44GfAuOAgQHjgrXjgq/igJnjgrvjg7wC44K1AuODrALjgr8CAXMsYXxrLFV8cyxlfGUCcyxhAnIsZQJ0LGECcGF1ASoCKgIqAioCKgEqAioCKgIqAioBMAIwAjACMAIwAWxoaGgCaAJoAmgCbAEwAjACMAIwAjABMAIwAjACMAIwADUB5ZCI5oiQ6Z+z5aOwAuOBqgLjgpMC44Gn44GZAeOCtOODvOOCu+ODvOOCquODs+OCu+ODvALjg4oC44OzAuODh+OCueKAmQFnLG98b3xzLGV8ZXxvfE58cyxlfGUCbixhAk4CZCxlfHMsVQEqAioCKgIqASoCKgIqAioBMAIwAjACMAFsaGhoaGxsbAJsAmwCbGwBMAIwAjACMAEwAjACMAIwADAB77yBAeOAgQFzaWwBKgEqATABATEBMA==</Metadata>
+          <Direction Volume="0" Speed="1" Tone="0" Alpha="0.55" LogF0Scale="1">
+            <Component Name="CTNV-JPF-AHS2_HAPPY" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_NORMAL" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_ANGRY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_SAD" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_CALM" Value="0.00" />
+          </Direction>
+          <Phonemes>
+            <Phoneme Data="w" />
+            <Phoneme Data="a" />
+            <Phoneme Data="t" />
+            <Phoneme Data="a" />
+            <Phoneme Data="sh" />
+            <Phoneme Data="i" />
+            <Phoneme Data="n" />
+            <Phoneme Data="o" />
+            <Phoneme Data="k" />
+            <Phoneme Data="o" />
+            <Phoneme Data="e" />
+            <Phoneme Data="w" />
+            <Phoneme Data="a" />
+            <Phoneme Speed="0.13999999999999996" />
+            <Phoneme Data="ch" />
+            <Phoneme Data="e" />
+            <Phoneme Data="b" />
+            <Phoneme Data="i" />
+            <Phoneme Data="o" />
+            <Phoneme Data="e" />
+            <Phoneme Data="e" />
+            <Phoneme Data="a" />
+            <Phoneme Data="i" />
+            <Phoneme Data="n" />
+            <Phoneme Data="i" />
+            <Phoneme Data="y" />
+            <Phoneme Data="o" />
+            <Phoneme Data="cl" />
+            <Phoneme Data="t" />
+            <Phoneme Data="e" />
+            <Phoneme Data="s" />
+            <Phoneme Data="a" />
+            <Phoneme Data="k" />
+            <Phoneme Data="U" />
+            <Phoneme Data="s" />
+            <Phoneme Data="e" />
+            <Phoneme Data="e" />
+            <Phoneme Data="s" />
+            <Phoneme Data="a" />
+            <Phoneme Data="r" />
+            <Phoneme Data="e" />
+            <Phoneme Data="t" />
+            <Phoneme Data="a" />
+            <Phoneme Speed="0.054999999999999882" />
+            <Phoneme Data="g" />
+            <Phoneme Data="o" />
+            <Phoneme Data="o" />
+            <Phoneme Data="s" />
+            <Phoneme Data="e" />
+            <Phoneme Data="e" />
+            <Phoneme Data="o" />
+            <Phoneme Data="N" />
+            <Phoneme Data="s" />
+            <Phoneme Data="e" />
+            <Phoneme Data="e" />
+            <Phoneme Data="n" />
+            <Phoneme Data="a" />
+            <Phoneme Data="N" />
+            <Phoneme Data="d" />
+            <Phoneme Data="e" />
+            <Phoneme Data="s" />
+            <Phoneme Data="U" />
+          </Phonemes>
+        </Unit>
+        <Unit Version="1.1" Id="" Category="TextVocal" Group="6b91a933-adc1-422a-869f-2971e59788dd" StartTime="00:00:13.2950000" Duration="00:00:01.8650000" Text="悲しい、バレちゃった" CastId="CTNV-JPF-AHS2" Language="Japanese" SnapShot="075B4B4879137B355D13EB089C787FCD:3430F4DC2E628363F6685E6FC1E85EDE">
+          <Metadata>MAEBAXNpbAEqASoBMAEBMAEwADMB5oKy44GX44GEAuOAgQHjgqvjg4rjgrfjgqQCAWssYXxuLGF8c2gsaXxpAnBhdQEqAioBKgIqATACMAFsaGhsAmwBMAIwATACMAAwAeODkOODrALjgaHjgoPjgaMC44GfAeODkOODrALjg4Hjg6Pjg4MC44K/AWIsYXxyLGUCY2gsYXxjbAJ0LGEBKgIqAioBKgIqAioBMAIwAjABbGgCaGgCaAEwAjACMAEwAjACMAAwAQEBc2lsASoBKgEwAQEwATA=;MAEBAXNpbAEqASoBMAEBMAEwADMB5oKy44GX44GEAuOAgQHjgqvjg4rjgrfjgqQCAWssYXxuLGF8c2gsaXxpAnBhdQEqAioBKgIqATACMAFsaGhsAmwBMAIwATACMAAxAeODkOODrALjgaHjgoPjgaMC44GfAeODkOODrALjg4Hjg6Pjg4MC44K/AWIsYXxyLGUCY2gsYXxjbAJ0LGEBKgIqAioBKgIqAioBMAIwAjABaGwCbGwCbAEwAjACMAEwAjACMAAwAQEBc2lsASoBKgEwAQEwATA=</Metadata>
+          <Direction Volume="0" Speed="1" Tone="0" Alpha="0.55" LogF0Scale="1">
+            <Component Name="CTNV-JPF-AHS2_HAPPY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_NORMAL" Value="1.00" />
+            <Component Name="CTNV-JPF-AHS2_ANGRY" Value="0.00" />
+            <Component Name="CTNV-JPF-AHS2_SAD" Value="0.50" />
+            <Component Name="CTNV-JPF-AHS2_CALM" Value="0.00" />
+          </Direction>
+          <Phonemes>
+            <Phoneme Data="k" />
+            <Phoneme Data="a" />
+            <Phoneme Data="n" />
+            <Phoneme Data="a" />
+            <Phoneme Data="sh" />
+            <Phoneme Data="i" />
+            <Phoneme Data="i" />
+            <Phoneme Speed="-0.014999999999999958" />
+            <Phoneme Data="b" />
+            <Phoneme Data="a" />
+            <Phoneme Data="r" />
+            <Phoneme Data="e" />
+            <Phoneme Data="ch" />
+            <Phoneme Data="a" />
+            <Phoneme Data="cl" />
+            <Phoneme Data="t" />
+            <Phoneme Data="a" />
+          </Phonemes>
+        </Unit>
+      </Units>
+      <Groups>
+        <Group Version="1.0" Id="6b91a933-adc1-422a-869f-2971e59788dd" Category="TextVocal" Name="トーク１" Color="#FF267CCB" Volume="0" Pan="0" IsSolo="false" IsMuted="false" CastId="CTNV-JPF-AHS2" Language="Japanese" />
+      </Groups>
+      <SoundSetting Rhythm="4/4" Tempo="78" MasterVolume="0" />
+    </Scene>
+  </Sequence>
+</Scenario>
