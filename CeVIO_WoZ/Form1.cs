@@ -17,6 +17,10 @@ namespace CeVIO_WoZ
             InitializeComponent();
         }
 
+        /*
+         * ***** tab1 ****** 
+         */
+
         private void button2_Click(object sender, EventArgs e)
         {
             CeVIO.playCeVIO(tab1_selfInputBox.Text);
@@ -53,12 +57,11 @@ namespace CeVIO_WoZ
             {
                 CeVIO.playCeVIO(tab1_selfInputBox.Text);
             }
-            //e.Handled = true;
         }
 
         private void tab1_selfInputBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == (char)Keys.Enter)
+            if (e.KeyChar == (char)Keys.Enter)
                 e.Handled = true;
         }
 
@@ -95,6 +98,76 @@ namespace CeVIO_WoZ
         private void tab1_setTalkButton7_Click(object sender, EventArgs e)
         {
             CeVIO.playCeVIO(tab1_setInputBox7.Text);
+        }
+
+        /*
+         * ***** tab2 *****
+         */
+
+        private void edit_tab2_Click(object sender, EventArgs e)
+        {
+            set_tab2(!tab2_setTalkButton1.Enabled);
+        }
+
+        private void set_tab2(bool setting)
+        {
+            tab2_setTalkButton1.Enabled = setting;
+            tab2_setTalkButton2.Enabled = setting;
+            tab2_setTalkButton3.Enabled = setting;
+            tab2_setTalkButton4.Enabled = setting;
+            tab2_setTalkButton5.Enabled = setting;
+            tab2_setTalkButton6.Enabled = setting;
+            tab2_setTalkButton7.Enabled = setting;
+            tab2_namebox.Enabled = !setting;
+            tab2_setInputBox1.Enabled = !setting;
+            tab2_setInputBox2.Enabled = !setting;
+            tab2_setInputBox3.Enabled = !setting;
+            tab2_setInputBox4.Enabled = !setting;
+            tab2_setInputBox5.Enabled = !setting;
+            tab2_setInputBox6.Enabled = !setting;
+            tab2_setInputBox7.Enabled = !setting;
+            tab2.Text = tab2_namebox.Text;
+        }
+
+        private void tab2_selfInputBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+                e.Handled = true;
+        }
+
+        private void tab2_setTalkButton1_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox1.Text);
+        }
+
+        private void tab2_setTalkButton2_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox2.Text);
+        }
+
+        private void tab2_setTalkButton3_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox3.Text);
+        }
+
+        private void tab2_setTalkButton4_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox4.Text);
+        }
+
+        private void tab2_setTalkButton5_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox5.Text);
+        }
+
+        private void tab2_setTalkButton6_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox6.Text);
+        }
+
+        private void tab2_setTalkButton7_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab2_setInputBox7.Text);
         }
     }
 }
