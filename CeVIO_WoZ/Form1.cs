@@ -19,7 +19,30 @@ namespace CeVIO_WoZ
 
         private void button2_Click(object sender, EventArgs e)
         {
-            CeVIO.playCeVIO(textBox1.Text);
+            CeVIO.playCeVIO(tab1_selfInputBox.Text);
+        }
+
+        private void edit_tab1_Click(object sender, EventArgs e)
+        {
+            set_tab1(!tab1_setTalkButton1.Enabled);
+        }
+
+        private void set_tab1(bool setting)
+        {
+            tab1_setTalkButton1.Enabled = setting;
+            tab1_setTalkButton2.Enabled = setting;
+            tab1_setTalkButton3.Enabled = setting;
+            tab1_setTalkButton4.Enabled = setting;
+            tab1_setTalkButton5.Enabled = setting;
+            tab1_setTalkButton6.Enabled = setting;
+            tab1_setTalkButton7.Enabled = setting;
+            tab1_setInputBox1.Enabled = !setting;
+            tab1_setInputBox2.Enabled = !setting;
+            tab1_setInputBox3.Enabled = !setting;
+            tab1_setInputBox4.Enabled = !setting;
+            tab1_setInputBox5.Enabled = !setting;
+            tab1_setInputBox6.Enabled = !setting;
+            tab1_setInputBox7.Enabled = !setting;
         }
     }
 }
