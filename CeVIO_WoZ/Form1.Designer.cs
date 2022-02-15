@@ -65,22 +65,22 @@ namespace CeVIO_WoZ
             this.tab2_namebox = new System.Windows.Forms.TextBox();
             this.edit_tab2 = new System.Windows.Forms.Button();
             this.tab3 = new System.Windows.Forms.TabPage();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.button16 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton7 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton6 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton5 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton4 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton3 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton2 = new System.Windows.Forms.Button();
+            this.tab3_setTalkButton1 = new System.Windows.Forms.Button();
+            this.tab3_setInputBox7 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox6 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox5 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox4 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox3 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox2 = new System.Windows.Forms.TextBox();
+            this.tab3_setInputBox1 = new System.Windows.Forms.TextBox();
+            this.tab3_namebox = new System.Windows.Forms.TextBox();
+            this.edit_tab3 = new System.Windows.Forms.Button();
             this.tab4 = new System.Windows.Forms.TabPage();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
@@ -295,6 +295,7 @@ namespace CeVIO_WoZ
             this.tab1_namebox.Name = "tab1_namebox";
             this.tab1_namebox.Size = new System.Drawing.Size(142, 19);
             this.tab1_namebox.TabIndex = 4;
+            this.tab1_namebox.Text = "単純応答";
             // 
             // edit_tab1
             // 
@@ -496,22 +497,22 @@ namespace CeVIO_WoZ
             // 
             // tab3
             // 
-            this.tab3.Controls.Add(this.button9);
-            this.tab3.Controls.Add(this.button10);
-            this.tab3.Controls.Add(this.button11);
-            this.tab3.Controls.Add(this.button12);
-            this.tab3.Controls.Add(this.button13);
-            this.tab3.Controls.Add(this.button14);
-            this.tab3.Controls.Add(this.button15);
-            this.tab3.Controls.Add(this.textBox9);
-            this.tab3.Controls.Add(this.textBox10);
-            this.tab3.Controls.Add(this.textBox11);
-            this.tab3.Controls.Add(this.textBox12);
-            this.tab3.Controls.Add(this.textBox13);
-            this.tab3.Controls.Add(this.textBox14);
-            this.tab3.Controls.Add(this.textBox15);
-            this.tab3.Controls.Add(this.textBox16);
-            this.tab3.Controls.Add(this.button16);
+            this.tab3.Controls.Add(this.tab3_setTalkButton7);
+            this.tab3.Controls.Add(this.tab3_setTalkButton6);
+            this.tab3.Controls.Add(this.tab3_setTalkButton5);
+            this.tab3.Controls.Add(this.tab3_setTalkButton4);
+            this.tab3.Controls.Add(this.tab3_setTalkButton3);
+            this.tab3.Controls.Add(this.tab3_setTalkButton2);
+            this.tab3.Controls.Add(this.tab3_setTalkButton1);
+            this.tab3.Controls.Add(this.tab3_setInputBox7);
+            this.tab3.Controls.Add(this.tab3_setInputBox6);
+            this.tab3.Controls.Add(this.tab3_setInputBox5);
+            this.tab3.Controls.Add(this.tab3_setInputBox4);
+            this.tab3.Controls.Add(this.tab3_setInputBox3);
+            this.tab3.Controls.Add(this.tab3_setInputBox2);
+            this.tab3.Controls.Add(this.tab3_setInputBox1);
+            this.tab3.Controls.Add(this.tab3_namebox);
+            this.tab3.Controls.Add(this.edit_tab3);
             this.tab3.Location = new System.Drawing.Point(4, 22);
             this.tab3.Margin = new System.Windows.Forms.Padding(2);
             this.tab3.Name = "tab3";
@@ -520,157 +521,166 @@ namespace CeVIO_WoZ
             this.tab3.Text = "あいづち";
             this.tab3.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // tab3_setTalkButton7
             // 
-            this.button9.Location = new System.Drawing.Point(435, 190);
-            this.button9.Margin = new System.Windows.Forms.Padding(2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(71, 23);
-            this.button9.TabIndex = 16;
-            this.button9.Text = "発話";
-            this.button9.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton7.Location = new System.Drawing.Point(435, 190);
+            this.tab3_setTalkButton7.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton7.Name = "tab3_setTalkButton7";
+            this.tab3_setTalkButton7.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton7.TabIndex = 16;
+            this.tab3_setTalkButton7.Text = "発話";
+            this.tab3_setTalkButton7.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton7.Click += new System.EventHandler(this.tab3_setTalkButton7_Click);
             // 
-            // button10
+            // tab3_setTalkButton6
             // 
-            this.button10.Location = new System.Drawing.Point(435, 163);
-            this.button10.Margin = new System.Windows.Forms.Padding(2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(71, 23);
-            this.button10.TabIndex = 17;
-            this.button10.Text = "発話";
-            this.button10.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton6.Location = new System.Drawing.Point(435, 163);
+            this.tab3_setTalkButton6.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton6.Name = "tab3_setTalkButton6";
+            this.tab3_setTalkButton6.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton6.TabIndex = 17;
+            this.tab3_setTalkButton6.Text = "発話";
+            this.tab3_setTalkButton6.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton6.Click += new System.EventHandler(this.tab3_setTalkButton6_Click);
             // 
-            // button11
+            // tab3_setTalkButton5
             // 
-            this.button11.Location = new System.Drawing.Point(435, 136);
-            this.button11.Margin = new System.Windows.Forms.Padding(2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(71, 23);
-            this.button11.TabIndex = 18;
-            this.button11.Text = "発話";
-            this.button11.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton5.Location = new System.Drawing.Point(435, 136);
+            this.tab3_setTalkButton5.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton5.Name = "tab3_setTalkButton5";
+            this.tab3_setTalkButton5.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton5.TabIndex = 18;
+            this.tab3_setTalkButton5.Text = "発話";
+            this.tab3_setTalkButton5.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton5.Click += new System.EventHandler(this.tab3_setTalkButton5_Click);
             // 
-            // button12
+            // tab3_setTalkButton4
             // 
-            this.button12.Location = new System.Drawing.Point(435, 110);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(71, 23);
-            this.button12.TabIndex = 19;
-            this.button12.Text = "発話";
-            this.button12.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton4.Location = new System.Drawing.Point(435, 110);
+            this.tab3_setTalkButton4.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton4.Name = "tab3_setTalkButton4";
+            this.tab3_setTalkButton4.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton4.TabIndex = 19;
+            this.tab3_setTalkButton4.Text = "発話";
+            this.tab3_setTalkButton4.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton4.Click += new System.EventHandler(this.tab3_setTalkButton4_Click);
             // 
-            // button13
+            // tab3_setTalkButton3
             // 
-            this.button13.Location = new System.Drawing.Point(435, 83);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(71, 23);
-            this.button13.TabIndex = 20;
-            this.button13.Text = "発話";
-            this.button13.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton3.Location = new System.Drawing.Point(435, 83);
+            this.tab3_setTalkButton3.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton3.Name = "tab3_setTalkButton3";
+            this.tab3_setTalkButton3.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton3.TabIndex = 20;
+            this.tab3_setTalkButton3.Text = "発話";
+            this.tab3_setTalkButton3.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton3.Click += new System.EventHandler(this.tab3_setTalkButton3_Click);
             // 
-            // button14
+            // tab3_setTalkButton2
             // 
-            this.button14.Location = new System.Drawing.Point(435, 56);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(71, 23);
-            this.button14.TabIndex = 21;
-            this.button14.Text = "発話";
-            this.button14.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton2.Location = new System.Drawing.Point(435, 56);
+            this.tab3_setTalkButton2.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton2.Name = "tab3_setTalkButton2";
+            this.tab3_setTalkButton2.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton2.TabIndex = 21;
+            this.tab3_setTalkButton2.Text = "発話";
+            this.tab3_setTalkButton2.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton2.Click += new System.EventHandler(this.tab3_setTalkButton2_Click);
             // 
-            // button15
+            // tab3_setTalkButton1
             // 
-            this.button15.Location = new System.Drawing.Point(435, 30);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(71, 23);
-            this.button15.TabIndex = 22;
-            this.button15.Text = "発話";
-            this.button15.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton1.Location = new System.Drawing.Point(435, 30);
+            this.tab3_setTalkButton1.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setTalkButton1.Name = "tab3_setTalkButton1";
+            this.tab3_setTalkButton1.Size = new System.Drawing.Size(71, 23);
+            this.tab3_setTalkButton1.TabIndex = 22;
+            this.tab3_setTalkButton1.Text = "発話";
+            this.tab3_setTalkButton1.UseVisualStyleBackColor = true;
+            this.tab3_setTalkButton1.Click += new System.EventHandler(this.tab3_setTalkButton1_Click);
             // 
-            // textBox9
+            // tab3_setInputBox7
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(2, 193);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(431, 19);
-            this.textBox9.TabIndex = 9;
+            this.tab3_setInputBox7.Enabled = false;
+            this.tab3_setInputBox7.Location = new System.Drawing.Point(2, 193);
+            this.tab3_setInputBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox7.Name = "tab3_setInputBox7";
+            this.tab3_setInputBox7.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox7.TabIndex = 9;
             // 
-            // textBox10
+            // tab3_setInputBox6
             // 
-            this.textBox10.Enabled = false;
-            this.textBox10.Location = new System.Drawing.Point(2, 166);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(431, 19);
-            this.textBox10.TabIndex = 10;
+            this.tab3_setInputBox6.Enabled = false;
+            this.tab3_setInputBox6.Location = new System.Drawing.Point(2, 166);
+            this.tab3_setInputBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox6.Name = "tab3_setInputBox6";
+            this.tab3_setInputBox6.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox6.TabIndex = 10;
             // 
-            // textBox11
+            // tab3_setInputBox5
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(2, 140);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(431, 19);
-            this.textBox11.TabIndex = 11;
+            this.tab3_setInputBox5.Enabled = false;
+            this.tab3_setInputBox5.Location = new System.Drawing.Point(2, 140);
+            this.tab3_setInputBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox5.Name = "tab3_setInputBox5";
+            this.tab3_setInputBox5.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox5.TabIndex = 11;
             // 
-            // textBox12
+            // tab3_setInputBox4
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(2, 113);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(431, 19);
-            this.textBox12.TabIndex = 12;
+            this.tab3_setInputBox4.Enabled = false;
+            this.tab3_setInputBox4.Location = new System.Drawing.Point(2, 113);
+            this.tab3_setInputBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox4.Name = "tab3_setInputBox4";
+            this.tab3_setInputBox4.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox4.TabIndex = 12;
             // 
-            // textBox13
+            // tab3_setInputBox3
             // 
-            this.textBox13.Enabled = false;
-            this.textBox13.Location = new System.Drawing.Point(2, 86);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(431, 19);
-            this.textBox13.TabIndex = 13;
+            this.tab3_setInputBox3.Enabled = false;
+            this.tab3_setInputBox3.Location = new System.Drawing.Point(2, 86);
+            this.tab3_setInputBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox3.Name = "tab3_setInputBox3";
+            this.tab3_setInputBox3.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox3.TabIndex = 13;
             // 
-            // textBox14
+            // tab3_setInputBox2
             // 
-            this.textBox14.Enabled = false;
-            this.textBox14.Location = new System.Drawing.Point(2, 60);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(431, 19);
-            this.textBox14.TabIndex = 14;
+            this.tab3_setInputBox2.Enabled = false;
+            this.tab3_setInputBox2.Location = new System.Drawing.Point(2, 60);
+            this.tab3_setInputBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox2.Name = "tab3_setInputBox2";
+            this.tab3_setInputBox2.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox2.TabIndex = 14;
             // 
-            // textBox15
+            // tab3_setInputBox1
             // 
-            this.textBox15.Enabled = false;
-            this.textBox15.Location = new System.Drawing.Point(2, 33);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(431, 19);
-            this.textBox15.TabIndex = 15;
+            this.tab3_setInputBox1.Enabled = false;
+            this.tab3_setInputBox1.Location = new System.Drawing.Point(2, 33);
+            this.tab3_setInputBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_setInputBox1.Name = "tab3_setInputBox1";
+            this.tab3_setInputBox1.Size = new System.Drawing.Size(431, 19);
+            this.tab3_setInputBox1.TabIndex = 15;
             // 
-            // textBox16
+            // tab3_namebox
             // 
-            this.textBox16.Enabled = false;
-            this.textBox16.Location = new System.Drawing.Point(291, 6);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(142, 19);
-            this.textBox16.TabIndex = 8;
+            this.tab3_namebox.Enabled = false;
+            this.tab3_namebox.Location = new System.Drawing.Point(291, 6);
+            this.tab3_namebox.Margin = new System.Windows.Forms.Padding(2);
+            this.tab3_namebox.Name = "tab3_namebox";
+            this.tab3_namebox.Size = new System.Drawing.Size(142, 19);
+            this.tab3_namebox.TabIndex = 8;
+            this.tab3_namebox.Text = "あいづち";
             // 
-            // button16
+            // edit_tab3
             // 
-            this.button16.Location = new System.Drawing.Point(435, 3);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(71, 23);
-            this.button16.TabIndex = 7;
-            this.button16.Text = "編集";
-            this.button16.UseVisualStyleBackColor = true;
+            this.edit_tab3.Location = new System.Drawing.Point(435, 3);
+            this.edit_tab3.Margin = new System.Windows.Forms.Padding(2);
+            this.edit_tab3.Name = "edit_tab3";
+            this.edit_tab3.Size = new System.Drawing.Size(71, 23);
+            this.edit_tab3.TabIndex = 7;
+            this.edit_tab3.Text = "編集";
+            this.edit_tab3.UseVisualStyleBackColor = true;
+            this.edit_tab3.Click += new System.EventHandler(this.edit_tab3_Click);
             // 
             // tab4
             // 
@@ -839,6 +849,7 @@ namespace CeVIO_WoZ
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(142, 19);
             this.textBox24.TabIndex = 8;
+            this.textBox24.Text = "初対面挨拶";
             // 
             // button24
             // 
@@ -937,22 +948,22 @@ namespace CeVIO_WoZ
         private System.Windows.Forms.TextBox tab2_setInputBox1;
         private System.Windows.Forms.TextBox tab2_namebox;
         private System.Windows.Forms.Button edit_tab2;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button tab3_setTalkButton7;
+        private System.Windows.Forms.Button tab3_setTalkButton6;
+        private System.Windows.Forms.Button tab3_setTalkButton5;
+        private System.Windows.Forms.Button tab3_setTalkButton4;
+        private System.Windows.Forms.Button tab3_setTalkButton3;
+        private System.Windows.Forms.Button tab3_setTalkButton2;
+        private System.Windows.Forms.Button tab3_setTalkButton1;
+        private System.Windows.Forms.TextBox tab3_setInputBox7;
+        private System.Windows.Forms.TextBox tab3_setInputBox6;
+        private System.Windows.Forms.TextBox tab3_setInputBox5;
+        private System.Windows.Forms.TextBox tab3_setInputBox4;
+        private System.Windows.Forms.TextBox tab3_setInputBox3;
+        private System.Windows.Forms.TextBox tab3_setInputBox2;
+        private System.Windows.Forms.TextBox tab3_setInputBox1;
+        private System.Windows.Forms.TextBox tab3_namebox;
+        private System.Windows.Forms.Button edit_tab3;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
