@@ -240,5 +240,74 @@ namespace CeVIO_WoZ
             CeVIO.playCeVIO(tab3_setInputBox7.Text);
         }
 
+        /*
+         * ***** tab4 *****
+         */
+
+        private void edit_tab4_Click(object sender, EventArgs e)
+        {
+            set_tab4(!tab4_setInputBox1.Enabled);
+        }
+
+        private void set_tab4(bool setting)
+        {
+            tab4_setInputBox1.Enabled = setting;
+            tab4_setInputBox2.Enabled = setting;
+            tab4_setInputBox3.Enabled = setting;
+            tab4_setInputBox4.Enabled = setting;
+            tab4_setInputBox5.Enabled = setting;
+            tab4_setInputBox6.Enabled = setting;
+            tab4_setInputBox7.Enabled = setting;
+            tab4_namebox.Enabled = !setting;
+            tab4_setTalkButton1.Enabled = !setting;
+            tab4_setTalkButton2.Enabled = !setting;
+            tab4_setTalkButton3.Enabled = !setting;
+            tab4_setTalkButton4.Enabled = !setting;
+            tab4_setTalkButton5.Enabled = !setting;
+            tab4_setTalkButton6.Enabled = !setting;
+            tab4_setTalkButton7.Enabled = !setting;
+            tab4.Text = tab4_namebox.Text;
+        }
+
+        private void tab4_selfInputBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+                e.Handled = true;
+        }
+
+        private void tab4_setTalkButton1_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox1.Text);
+        }
+
+        private void tab4_setTalkButton2_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox2.Text);
+        }
+
+        private void tab4_setTalkButton3_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox3.Text);
+        }
+
+        private void tab4_setTalkButton4_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox4.Text);
+        }
+
+        private void tab4_setTalkButton5_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox5.Text);
+        }
+
+        private void tab4_setTalkButton6_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox6.Text);
+        }
+
+        private void tab4_setTalkButton7_Click(object sender, EventArgs e)
+        {
+            CeVIO.playCeVIO(tab4_setInputBox7.Text);
+        }
     }
 }
