@@ -250,6 +250,7 @@ namespace CeVIO_WoZ
             this.tab1_setInputBox5.Name = "tab1_setInputBox5";
             this.tab1_setInputBox5.Size = new System.Drawing.Size(431, 19);
             this.tab1_setInputBox5.TabIndex = 5;
+            this.tab1_setInputBox5.Text = "えー";
             // 
             // tab1_setInputBox4
             // 
@@ -259,6 +260,7 @@ namespace CeVIO_WoZ
             this.tab1_setInputBox4.Name = "tab1_setInputBox4";
             this.tab1_setInputBox4.Size = new System.Drawing.Size(431, 19);
             this.tab1_setInputBox4.TabIndex = 5;
+            this.tab1_setInputBox4.Text = "どっちでもいいです";
             // 
             // tab1_setInputBox3
             // 
@@ -268,6 +270,7 @@ namespace CeVIO_WoZ
             this.tab1_setInputBox3.Name = "tab1_setInputBox3";
             this.tab1_setInputBox3.Size = new System.Drawing.Size(431, 19);
             this.tab1_setInputBox3.TabIndex = 5;
+            this.tab1_setInputBox3.Text = "まだです";
             // 
             // tab1_setInputBox2
             // 
@@ -277,6 +280,7 @@ namespace CeVIO_WoZ
             this.tab1_setInputBox2.Name = "tab1_setInputBox2";
             this.tab1_setInputBox2.Size = new System.Drawing.Size(431, 19);
             this.tab1_setInputBox2.TabIndex = 5;
+            this.tab1_setInputBox2.Text = "え、いやです";
             // 
             // tab1_setInputBox1
             // 
@@ -795,6 +799,7 @@ namespace CeVIO_WoZ
             this.tab4_setInputBox7.Name = "tab4_setInputBox7";
             this.tab4_setInputBox7.Size = new System.Drawing.Size(431, 19);
             this.tab4_setInputBox7.TabIndex = 9;
+            this.tab4_setInputBox7.Text = "遅くなりました";
             // 
             // tab4_setInputBox6
             // 

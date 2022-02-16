@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Media;
 using CeVIO.Talk.RemoteService2;
 
 namespace CeVIO_WoZ
@@ -12,6 +13,9 @@ namespace CeVIO_WoZ
     {
         public static void playCeVIO(string talkText)
         {
+            if (playWAV(talkText + ".wav"))
+                return;
+
             //CeVIO AIを起動
             ServiceControl2.StartHost(false);
 
@@ -62,6 +66,24 @@ namespace CeVIO_WoZ
             talker.Components["落ち着き"].Value = 0;
 
             talker.OutputWaveToFile(talkText, @folder + fileName);
+        }
+
+        private static bool playWAV(string fileName)
+        {
+            string folder = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\CeVIO_WoZ";
+            if (!System.IO.Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+            SoundPlayer player = new SoundPlayer(folder + "\\" + fileName);
+            try
+            {
+                player.Play();
+                return true;
+            }
+            catch (System.IO.FileNotFoundException)
+            {
+                return false;
+            }
+            
         }
     }
 }
