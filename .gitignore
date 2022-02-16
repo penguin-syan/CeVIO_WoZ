@@ -1,5 +1,6 @@
 # CeVIO AI audio file
 CeVIO_AI/Audio/
+CeVIO_AI/*.wav
 
 
 ## Ignore Visual Studio temporary files, build results, and
