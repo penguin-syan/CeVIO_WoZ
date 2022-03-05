@@ -56,6 +56,7 @@ namespace CeVIO_WoZ
             if (e.KeyCode == Keys.Enter)
             {
                 CeVIO.playCeVIO(tab1_selfInputBox.Text);
+                tab1_selfInputBox.Text = "";
             }
         }
 

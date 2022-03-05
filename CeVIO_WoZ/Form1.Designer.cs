@@ -337,7 +337,7 @@ namespace CeVIO_WoZ
             this.tab2.Padding = new System.Windows.Forms.Padding(2);
             this.tab2.Size = new System.Drawing.Size(509, 217);
             this.tab2.TabIndex = 1;
-            this.tab2.Text = "複雑応答";
+            this.tab2.Text = "ごまかし";
             this.tab2.UseVisualStyleBackColor = true;
             // 
             // tab2_setTalkButton7
@@ -470,6 +470,7 @@ namespace CeVIO_WoZ
             this.tab2_setInputBox2.Name = "tab2_setInputBox2";
             this.tab2_setInputBox2.Size = new System.Drawing.Size(431, 19);
             this.tab2_setInputBox2.TabIndex = 14;
+            this.tab2_setInputBox2.Text = "アプデ中です";
             // 
             // tab2_setInputBox1
             // 
@@ -479,6 +480,7 @@ namespace CeVIO_WoZ
             this.tab2_setInputBox1.Name = "tab2_setInputBox1";
             this.tab2_setInputBox1.Size = new System.Drawing.Size(431, 19);
             this.tab2_setInputBox1.TabIndex = 15;
+            this.tab2_setInputBox1.Text = "何を言っているのか，わからないなぁ";
             // 
             // tab2_namebox
             // 
@@ -488,6 +490,7 @@ namespace CeVIO_WoZ
             this.tab2_namebox.Name = "tab2_namebox";
             this.tab2_namebox.Size = new System.Drawing.Size(142, 19);
             this.tab2_namebox.TabIndex = 8;
+            this.tab2_namebox.Text = "ごまかし";
             // 
             // edit_tab2
             // 
@@ -656,6 +659,7 @@ namespace CeVIO_WoZ
             this.tab3_setInputBox2.Name = "tab3_setInputBox2";
             this.tab3_setInputBox2.Size = new System.Drawing.Size(431, 19);
             this.tab3_setInputBox2.TabIndex = 14;
+            this.tab3_setInputBox2.Text = "へー，そんなことあるんだぁ";
             // 
             // tab3_setInputBox1
             // 
@@ -836,6 +840,7 @@ namespace CeVIO_WoZ
             this.tab4_setInputBox3.Name = "tab4_setInputBox3";
             this.tab4_setInputBox3.Size = new System.Drawing.Size(431, 19);
             this.tab4_setInputBox3.TabIndex = 13;
+            this.tab4_setInputBox3.Text = "聞こえますか？";
             // 
             // tab4_setInputBox2
             // 
